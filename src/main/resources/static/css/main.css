@@ -1,3 +1,4 @@
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -23,7 +24,7 @@ body {
 
 body:before {
     height: 50%;
-    width:  100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -42,11 +43,6 @@ body:before {
     display: none;
 }
 
-.error {
-    color: red;
-    font-size: 12px;
-}
-
 .form-control {
     width: 100%;
     min-height: 38px;
@@ -61,6 +57,19 @@ body:before {
 input {
     padding-left: 10px;
     outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+a {
+    color: #128ff2;
 }
 
 button {
@@ -91,7 +100,7 @@ button.primary {
 }
 
 button.accent {
-    background-color: #128ff2;
+    background-color: #ff4743;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
 }
@@ -208,20 +217,6 @@ button.accent {
 
 #chat-page .chat-message p {
     color: #43464b;
-    overflow-wrap: anywhere;
-}
-
-#chat-page .chat-message p2 {
-    float: right
-}
-
-#chat-page p2 {
-    color: #999;
-    font-size: 12px;
-}
-
-#messageForm .input-group {
-    text-align: center;
 }
 
 #messageForm .input-group input {
@@ -258,10 +253,6 @@ button.accent {
 
 
 @media screen and (max-width: 730px) {
-
-    #messageForm .input-group button {
-        width: 65px;
-    }
 
     .chat-container {
         margin-left: 10px;
